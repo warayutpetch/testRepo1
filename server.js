@@ -17,6 +17,6 @@ app.get("/api", (req, res, next) => {
 });
 
 // The server start listening on port 3001
-app.listen(3001, () => {
-    console.log("Server running on port 3001");
+app.listen(5678, () => {
+    console.log("Server running on port 5678");
 });
